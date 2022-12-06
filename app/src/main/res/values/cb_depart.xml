@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cb_depart">
+        <item>Systems</item>
+        <item>Treasury</item>
+        <item>Networking</item>
+        <item>Technical Support</item>
+    </string-array>
+</resources>

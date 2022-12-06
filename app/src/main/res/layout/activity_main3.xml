@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="10sp"
+        android:backgroundTint="@color/teal_700"
+        android:onClick="backPage"
+        android:padding="10sp"
+        android:text="@string/btnBack"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:gravity="center"
+            android:text="@string/titleAverage"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/txt_mat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:ems="10"
+            android:hint="Mathematics"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/txt_che"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:ems="10"
+            android:hint="Chemistry"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/txt_pro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:ems="10"
+            android:hint="Programming"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/txt_fi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:ems="10"
+            android:hint="Fisic"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_calculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="20sp"
+            android:onClick="calculate"
+            android:padding="10sp"
+            android:text="@string/btnCalculate"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            tools:ignore="UsingOnClickInXml" />
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15sp"
+            android:gravity="center"
+            android:text="@string/txtResult"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textColor="#7C2D2D"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

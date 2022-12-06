@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Final Project</string>
+    <!-- MainActivity2-->
+    <string name="titleDates">Personal Information</string>
+    <string name="mail">Mail</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="schedule">Schedule</string>
+    <string name="rbFull">Full Time</string>
+    <string name="rbPart">Part Time</string>
+    <string name="btnSave">Save</string>
+    <!-- ActivitySave -->
+    <string name="btnGoAverage">Go to Average</string>
+    <!-- MainActivity3 -->
+    <string name="titleAverage">Average</string>
+    <string name="btnCalculate">Calculate Average</string>
+    <string name="txtResult">Student State:</string>
+    <string name="btnBack">Back</string>
+</resources>
