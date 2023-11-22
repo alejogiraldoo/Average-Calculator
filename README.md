@@ -1,2 +1,2 @@
 # Average-Calculator
-The Repository code is about how to do a average with percentages. The average is calculate with user input values in Android Studio
+This project is about calculating the average of grades based on the user-input values provided.
